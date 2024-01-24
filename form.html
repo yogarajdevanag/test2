@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="center">
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post"> 
+    <!-- Identify your business so that you can collect the payments. --> 
+    <input type="hidden" name="business" value="herschelgomez@xyzzyu.com">
+     <!-- Specify a Buy Now button. --> <input type="hidden" name="cmd" value="_xclick">
+      <!-- Specify details about the item that buyers will purchase. -->
+       <input type="hidden" name="item_name" value="Design"> <input type="hidden" name="currency_code" value="USD"> 
+       <!-- Provide a drop-down menu option field. --> <input type="hidden" name="on0" value="Type">Design<br /> 
+       <select name="os0"> <option value="Select a type">-- Select a type --</option> <option value="Standard">Alocoholic beverages</option> <option value="Collapsible">Artesansa Premium</option> </select> <br />
+        <!-- Provide a drop-down menu option field with prices. --> 
+        <input type="hidden" name="on1" value="Design">Design <br /> <select name="os1"> <option value="Striped">Alocoholic beverages- $30.00 USD</option> <option value="Solid">Artesansa Premium - $25.0 USD</option> <option value="Dots">Dots - $20.00 USD</option> </select> <br />
+         <!-- Specify the price that PayPal uses for each option. --> 
+         <input type="hidden" name="option_index" value="1"> <input type="hidden" name="option_select0" value="Striped"> <input type="hidden" name="option_amount0" value="30.00"> <input type="hidden" name="option_select1" value="Solid"> <input type="hidden" name="option_amount1" value="25.00"> <input type="hidden" name="option_select2" value="Dots"> <input type="hidden" name="option_amount2" value="20.00">
+          <!-- Display the payment button. --> 
+          <input type="image" name="submit" border="0" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" alt="Buy Now"> <img alt="" border="0" width="1" height="1" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"> </form>
+</div>
+</body>
+</html>

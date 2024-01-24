@@ -1,0 +1,265 @@
+body{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2, h3 {
+    color: #0f0f10;
+}
+#btn {
+    display: inline-block;
+    margin-top: 10px;
+    background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+    color: #fffefe;
+    border-radius: 10px;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.4s ease;
+}
+
+#btn:hover {
+    border: 2px solid #a4bc46;
+    background: none;
+    color: #a4bc46;
+}
+
+
+.a-t {
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  .replace-1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+/* ------------HEADER SECTION------------- */
+header {
+    background-color: hsl(300, 100%, 100%);
+    padding-bottom: 90px;
+}
+
+.nav-logo img {
+    width: 400px;
+    height: 80px;
+}
+
+.top-banner-left {
+   margin-top: 10%;
+}
+.top-banner-left h1 {
+    text-transform: uppercase;
+    color: #363958;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 80px;
+}
+.top-banner-left span {
+    color: #FABE4C;
+}
+.top-banner-left p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+}
+.top-banner-right img {
+    width: 500px;
+}
+/* ----------END-------------- */
+
+.Alocoholic-beverages {
+    margin-top: 40px;
+}
+.Alocoholic-beverages h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-weight: 550;
+    font-size: px;
+    line-height: 48px;
+}
+.Artesansa-Premium {
+    margin: 80px 0;
+}
+.Artesansa-Premium h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 48px;
+}
+.card {
+    width: 350px;
+    height: 550px;
+    
+}
+.card {
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border: none !important;
+    border-radius: 20px !important;
+}
+.card img {
+    border-radius: 20px;
+    width: 330px;
+    height: 328px;
+    background: #F1F1F1;
+    padding: 20px 45px;
+}
+
+.card-body h3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+}
+.card-body p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+}
+.card-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.card-price span {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    color: #993348;
+}
+/* ----------END---------- */
+
+
+
+
+/* -------------PACKAGES BOX SECTION-------------- */
+.box-left {
+    display: flex;
+    background: #f8f9fa;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    padding: 27px;
+    margin-bottom: 20px;
+}
+.box-left img {
+    width: 78px;
+    height: 82px;
+    margin-right: 30px;
+}
+.box-info h3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+}
+.box-info p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.box-right img {
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+}
+/* ---------------END------------ */
+
+
+.bonus-area {
+    margin: 80px 0;
+}
+.extra {
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, .2);
+    border-radius: 20px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.extra-info h3 {
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+.extra-info p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+}
+/* Contact us */
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inputBox {
+    padding: 8px;
+    margin: 5px;
+    background-color: rgb(219, 198, 198);
+    border: 1.5px solid rgb(48, 45, 45);
+    border-radius: 10px;
+    width: 30%;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.inputBox:focus {
+    border: 1.5px solid #594f34;
+    outline: 1.5px;
+}
+
+.inputBtn {
+    cursor: pointer;
+    padding: 8px;
+    background-color: #d39840;
+    border: none;
+    border-radius: 50px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    margin: 10px;
+    color: rgb(255, 255, 255);
+    width: 8%;
+}
+
+.inputBtn:focus {
+    outline: 0;
+}
+
+.inputBtn:hover {
+    background-color: #b27f00;
+}
